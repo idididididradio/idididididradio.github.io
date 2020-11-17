@@ -60,7 +60,6 @@ a {
   margin-left: 40px;
 }
 
-
 #left {
     float: left;
     border-right: 1px solid #000AFF;
@@ -76,29 +75,63 @@ a {
     height: 100vh;
     overflow: scroll;
     color: blue;
+    overflow: hidden;
+
 }
 
 .show{
-  display: flex;
-  flex-direction: row;
+  display: grid;
   border: 1px solid #fff;
   border-right-style: none;
   border-left-style: none;
   width: 45vw;
   margin-left: auto;
   margin-right: auto;
+  grid-template-columns: repeat(5,1fr);
   padding: 20px;
   padding-left: 30px;
 }
 
-.show_logo{  
+.show_logo{
+  grid-column-start: 1;
+  grid-column-end: 2;
   height: 100%;
 }
 
 .time {
-  margin-left: 30px;
+grid-column-start: 2;
+grid-column-end: 3;
+margin-top: 30px;
 }
 
 .description {
-  margin-left: 30px;
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+#headerright {
+  display: flex;
+  flex-direction: column;
+  height: 310px;
+  width: 100%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#show_logo_right {
+  width: 25%;
+}
+.chat {
+  height: 100%;
+  width: 100%;
+}
+#chatroom {
+  margin-left: 3%;
+  height: 500px;
+  width: 94%;
+  background-color: blue;
+  margin-top: 2%;
+}
+.audio {
+  padding: 20px;
 }
