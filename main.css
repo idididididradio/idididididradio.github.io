@@ -16,7 +16,7 @@ a {
 
 #left {
     float: left;
-    border-right: 1px solid #f00;
+    border-right: 1px solid #000AFF;
     padding: 20px;
     width: calc(50vw - 41px);
     height: calc(100vh - 40px);
