@@ -74,6 +74,7 @@ a {
     width: 50vw;
     height: 100vh;
     overflow: scroll;
+    color: blue;
 }
 
 .show{
