@@ -4,10 +4,8 @@
     font-family: 'Times New Roman', serif;
     font-weight: normal;
     font-size: 20px;
-    color: #f00;
+    color: #FFFFFF;
     background-color: #fff;
-    display: flex;
-    flex-direction: row;
 }
 
 a {
@@ -23,6 +21,7 @@ a {
     width: calc(50vw - 41px);
     height: calc(100vh - 40px);
     overflow: scroll;
+    background-color: #000AFF;
 }
 #right {
     float: left;
@@ -31,6 +30,28 @@ a {
     height: calc(100vh - 40px);
     overflow: scroll;
 }
+
+.show{
+  display: grid;
+  border: 1px solid #fff;
+  width: calc(50vw - 41px);
+  grid-template-columns: repeat(5,1fr);
+}
+
+.img{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.time {
+grid-column-start: 2;
+grid-column-end: 3;
+}
+
+.description {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
 
 .button {
   border: 1px solid #f00;
