@@ -7,14 +7,14 @@ var showthumbs = [ // add path to directory if necessary
 ];
 
 var showtimes = [{
-  start: 'November 17, 2020 21:35:00',
-  end: 'November 17, 2020 21:38:00'
+  start: 'November 18, 2020 12:00:00',
+  end: 'November 18, 2020 13:00:00'
 }, {
-  start: 'November 17, 2020 21:40:00',
-  end: 'November 17, 2020 21:42:00'
+  start: 'November 18, 2020 13:15:00',
+  end: 'November 18, 2020 14:15:00'
 }, {
-  start: 'November 17, 2020 23:21:00',
-  end: 'November 17, 2020 23:24:00'
+  start: 'November 18, 2020 14:30:00',
+  end: 'November 18, 2020 15:30:00'
 }, {
   start: 'November 18, 2020 15:45:00',
   end: 'November 18, 2020 16:45:00'
