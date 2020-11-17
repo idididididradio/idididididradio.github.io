@@ -1,10 +1,11 @@
 #content, html, body {
     height: 100%;
+    width: 100%;
     margin: 0px;
     font-family: alga, serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
+    font-size: 14pt;
     color: #FFFFFF;
     background-color: #fff;
     display: flex;
@@ -49,12 +50,6 @@ p {
   font-family: alga, serif;
   font-weight: 300;
   font-style: normal;
-}
-
-a {
-  color: #f00;
-  text-decoration: none;
-  border-bottom: 1px solid #f00;
 }
 
 #header {
@@ -191,3 +186,197 @@ a {
   margin-top: 20px;
 }
 
+@media screen and (max-width: 1150px) {
+  
+  body {
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width: 940px) {
+ 
+  #content, html, body {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    font-family: alga, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14pt;
+    color: #FFFFFF;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    overflow-x: hidden;
+}
+
+::selection {
+  color: red;
+  background: black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#left {
+  float: left;
+  border: none;
+  width: 100vw;
+  height: auto;
+  background-color: #000AFF;
+  overflow-y: visible;
+  overflow-x: visible;
+}
+#right {
+  float: left;
+  width: 100vw;
+  height: auto;
+  overflow-y: visible;
+  overflow-x: visible;
+}
+
+h1 {
+  font-family: alga, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14pt;
+}
+
+
+p {
+  font-family: alga, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10pt; 
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: calc(100% - 40px);
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.radio_logo {
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.header_title {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  margin-top: 10px;
+  margin-left: 40px;
+  width: 60%;
+}
+
+.show{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  border-right-style: none;
+  border-left-style: none;
+  width: calc(100% - 40px);
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.show_logo{  
+  display: flex;
+  width: 150px;
+  margin-left: 30px;
+}
+
+.description {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 18pt;
+  font-family: alga, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.theme {
+  width: 75%;
+  font-size: 14pt;
+  font-family: alga, serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.creators {
+  font-family: alga, serif;
+  font-weight: 300;
+  font-size: 12pt;
+  font-style: light;
+}
+
+
+.time {
+  font-size: 18pt;
+  font-family: alga, serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.interlude {
+  font-size: 12pt;
+  display: flex;
+  text-align: center;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: none;
+}
+
+
+
+#headerright {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: blue;
+}
+
+#show_logo_right {
+  width: 240px;
+}
+.chat {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#chatroom {
+  margin-left: 10px;
+  height: 100%;
+  width: 94%;
+  background-color: blue;
+}
+.audiocontainer {
+  margin-top: 20px;
+}
+
+
+
+
+}

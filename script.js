@@ -30,7 +30,7 @@ function teste() {
 
   var now = new Date();
 
-  //console.log(now);
+  console.log(now);
 
 
   var i = 0;
@@ -60,14 +60,14 @@ function teste() {
 
     } else {
 
-      logo.setAttribute('src', 'placeholder.svg');
+      logo.setAttribute('src', 'interlude.jpg');
 
       i++
     }
 
   }
 
-  setTimeout('reload()', 3000)
+  setTimeout('reload()', 30000)
 
 }
 
