@@ -12,22 +12,31 @@
     overflow: hidden;
 }
 
+::selection {
+  color: red;
+  background: black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 #left {
   float: left;
   border-right: 1px solid #000AFF;
   width: 50vw;
   height: 100vh;
-  overflow: scroll;
   background-color: #000AFF;
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 #right {
   float: left;
   width: 50vw;
   height: 100vh;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
-
 
 h1 {
   font-family: alga, serif;
@@ -52,10 +61,11 @@ a {
   display: flex;
   flex-direction: row;
   height: 200px;
-  width: 100%;
+  width: calc(100% - 40px);
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .radio_logo {
@@ -69,6 +79,7 @@ a {
   grid-column-end: 4;
   margin-top: 30px;
   margin-left: 40px;
+  width: 60%;
 }
 
 .show{
@@ -77,12 +88,11 @@ a {
   border: 1px solid #fff;
   border-right-style: none;
   border-left-style: none;
-  width: 49vw;
-  height: 180px;
+  width: calc(100% - 40px);
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  padding-left: 40px;
 }
 
 .show_logo{  
@@ -129,14 +139,25 @@ a {
 }
 
 .interlude {
+  font-size: 18pt;
   display: flex;
+  text-align: justify;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 120%;
+  animation-name: scrollleft;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: linear;
 }
 
+
+
+@keyframes scrollleft {
+  0% { transform: translateX(-50%); }
+
+  100% { transform: translateX(90%); }
+}
 
 
 
@@ -153,7 +174,7 @@ a {
 }
 
 #show_logo_right {
-  width: 25%;
+  height: 100px;
 }
 .chat {
   height: 100%;
