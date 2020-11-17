@@ -165,7 +165,7 @@ a {
 #headerright {
   display: flex;
   flex-direction: column;
-  height: 310px;
+  height: 45%;
   width: 100%;
   padding: 20px;
   margin-left: auto;
@@ -174,20 +174,20 @@ a {
 }
 
 #show_logo_right {
-  height: 100px;
+  width: 240px;
 }
 .chat {
-  height: 100%;
+  bottom: 0;
+  height: 50%;
   width: 100%;
 }
 #chatroom {
-  margin-left: 3%;
-  height: 800px;
+  margin-left: 20px;
+  height: 100%;
   width: 94%;
   background-color: blue;
-  margin-top: 2%;
 }
 .audiocontainer {
-  margin-left: 3%;
+  margin-top: 20px;
 }
 
