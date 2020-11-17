@@ -1,10 +1,9 @@
-
-
 #content, html, body {
     height: 100%;
     margin: 0px;
-    font-family: 'Times New Roman', serif;
-    font-weight: normal;
+    font-family: alga, serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 20px;
     color: #FFFFFF;
     background-color: #fff;
@@ -13,17 +12,29 @@
     overflow: hidden;
 }
 
+#left {
+  float: left;
+  border-right: 1px solid #000AFF;
+  width: 50vw;
+  height: 100vh;
+  overflow: scroll;
+  background-color: #000AFF;
+  overflow-x: hidden;
+}
+#right {
+  float: left;
+  width: 50vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+
 h1 {
   font-family: alga, serif;
   font-weight: 300;
   font-style: normal;
 }
 
-h2 {
-  font-family: alga, serif;
-  font-weight: 300;
-  font-style: normal;
-}
 
 p {
   font-family: alga, serif;
@@ -60,44 +71,68 @@ a {
   margin-left: 40px;
 }
 
-
-#left {
-    float: left;
-    border-right: 1px solid #000AFF;
-    width: 50vw;
-    height: 100vh;
-    overflow: scroll;
-    background-color: #000AFF;
-    overflow: hidden;
-}
-#right {
-    float: left;
-    width: 50vw;
-    height: 100vh;
-    overflow: scroll;
-}
-
 .show{
   display: flex;
   flex-direction: row;
   border: 1px solid #fff;
   border-right-style: none;
   border-left-style: none;
-  width: 45vw;
+  width: 49vw;
+  height: 180px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
-  padding-left: 30px;
+  padding: 10px;
+  padding-left: 40px;
 }
 
 .show_logo{  
-  height: 100%;
-}
-
-.time {
-  margin-left: 30px;
+  display: flex;
+  height: 150px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .description {
   margin-left: 30px;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 26pt;
+  font-family: alga, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.theme {
+  width: 75%;
+  font-size: 18pt;
+  font-family: alga, serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.creators {
+  font-family: alga, serif;
+  font-weight: 300;
+  font-size: 14pt;
+  font-style: light;
+}
+
+
+.time {
+  font-size: 18pt;
+  font-family: alga, serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.interlude {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
