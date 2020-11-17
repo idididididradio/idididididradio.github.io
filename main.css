@@ -136,3 +136,37 @@ a {
   margin-right: auto;
   width: 50%;
 }
+
+
+
+
+
+#headerright {
+  display: flex;
+  flex-direction: column;
+  height: 310px;
+  width: 100%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: blue;
+}
+
+#show_logo_right {
+  width: 25%;
+}
+.chat {
+  height: 100%;
+  width: 100%;
+}
+#chatroom {
+  margin-left: 3%;
+  height: 800px;
+  width: 94%;
+  background-color: blue;
+  margin-top: 2%;
+}
+.audiocontainer {
+  margin-left: 3%;
+}
+
