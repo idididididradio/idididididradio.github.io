@@ -1,3 +1,5 @@
+
+
 #content, html, body {
     height: 100%;
     margin: 0px;
@@ -6,6 +8,27 @@
     font-size: 20px;
     color: #FFFFFF;
     background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+h1 {
+  font-family: alga, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h2 {
+  font-family: alga, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+p {
+  font-family: alga, serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 a {
@@ -14,68 +37,71 @@ a {
   border-bottom: 1px solid #f00;
 }
 
+#header {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.radio_logo {
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.header_title {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
 #left {
     float: left;
     border-right: 1px solid #000AFF;
-    padding: 20px;
-    width: calc(50vw - 41px);
-    height: calc(100vh - 40px);
+    width: 50vw;
+    height: 100vh;
     overflow: scroll;
     background-color: #000AFF;
+    overflow: hidden;
 }
 #right {
     float: left;
-    padding: 20px;
-    width: calc(50vw - 40px);
-    height: calc(100vh - 40px);
+    width: 50vw;
+    height: 100vh;
     overflow: scroll;
 }
 
 .show{
   display: grid;
   border: 1px solid #fff;
-  width: calc(50vw - 41px);
+  border-right-style: none;
+  border-left-style: none;
+  width: 45vw;
+  margin-left: auto;
+  margin-right: auto;
   grid-template-columns: repeat(5,1fr);
+  padding: 20px;
+  padding-left: 30px;
 }
 
-.img{
+.show_logo{
   grid-column-start: 1;
   grid-column-end: 2;
+  height: 100%;
 }
+
 .time {
 grid-column-start: 2;
 grid-column-end: 3;
+margin-top: 30px;
 }
 
 .description {
   grid-column-start: 3;
   grid-column-end: 6;
-}
-
-
-.button {
-  border: 1px solid #f00;
-  border-radius: 40px;
-  padding: 5px;
-  padding-left: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  cursor: pointer;
-}
-.button:hover {
-  background-color: #f00;
-  color: #fff;
-}
-.students {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.planning {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-}
-
-figure {
-    margin: 0;
 }
