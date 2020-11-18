@@ -226,6 +226,7 @@ p {
 #show_logo_right {
   height: auto;
   width: 25vh;
+  margin-top: 20px;
 }
 .chat {
   bottom: 0;
