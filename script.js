@@ -25,9 +25,9 @@ var showtimes = [{
   end: 'November 18, 2020 15:30:00'
 }, {
   start: 'November 18, 2020 15:45:00',
-  end: 'November 18, 2020 16:45:00'
+  end: 'November 18, 2020 17:10:00'
 }, {
-  start: 'November 18, 2020 17:00:00',
+  start: 'November 18, 2020 17:30:00',
   end: 'November 19, 2020 00:00:00'
 }, ]
 
