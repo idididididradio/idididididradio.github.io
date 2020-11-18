@@ -224,7 +224,8 @@ p {
 }
 
 #show_logo_right {
-  width: 240px;
+  height: auto;
+  width: 25vh;
 }
 .chat {
   bottom: 0;
