@@ -11,7 +11,7 @@ var showtitles = [
   "DAD PLAYLIST EPHEMERA",
   "LEARNING THINGS IN REAL TIME",
   "AS THE WORLD TURNS - CALL +44 7720 980 999",
-  "OPEN MIC AND DJING" 
+  "OPEN MIC AND DJING - REQUEST IN THE CHAT!" 
 ];
 
 var showtimes = [{
@@ -27,7 +27,7 @@ var showtimes = [{
   start: 'November 18, 2020 15:45:00',
   end: 'November 18, 2020 17:10:00'
 }, {
-  start: 'November 18, 2020 17:30:00',
+  start: 'November 18, 2020 17:11:00',
   end: 'November 19, 2020 00:00:00'
 }, ]
 
