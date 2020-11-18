@@ -38,7 +38,7 @@ function teste() {
 
   var now = new Date();
 
-  console.log(now);
+  
 
 
   var i = 0;
