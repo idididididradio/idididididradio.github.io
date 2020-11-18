@@ -189,16 +189,38 @@ p {
 
 
 
-
 #headerright {
   display: flex;
   flex-direction: column;
   height: 45%;
   width: 100%;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   margin-left: auto;
   margin-right: auto;
   color: blue;
+}
+
+#nowplaying_container {
+  background-color: blue;
+  margin-left: -20%;
+  padding: 20px;
+  margin-top: 0;
+}
+
+.nowplaying {
+  animation-name: scrollleft;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  color: white;
+  font-size: 26pt;
+}
+
+
+@keyframes scrollleft {
+  0% { transform: translateX(100%); }
+
+  100% { transform: translateX(-50%); }
 }
 
 #show_logo_right {

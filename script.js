@@ -1,9 +1,17 @@
-var showthumbs = [ // add path to directory if necessary
+var showthumbs = [ 
   "thepower.jpg",
   "dadplaylist.jpg",
   "learning.jpg",
   "astheworldturns.jpg",
-  "openmicanddjing.jpg" // NOTE: no comma after last entry
+  "openmicanddjing.jpg"
+];
+
+var showtitles = [ 
+  "THE POWER OF ESCAPE",
+  "DAD PLAYLIST EPHEMERA",
+  "LEARNING THINGS IN REAL TIME",
+  "AS THE WORLD TURNS",
+  "OPEN MIC AND DJING" 
 ];
 
 var showtimes = [{
@@ -42,6 +50,7 @@ function teste() {
     var endshowtime = new Date((showtimes[i])['end']);
 
     var logo = document.getElementById('show_logo_right');
+    var title = document.getElementById('show_playing');
 
     /*
         if (endshowtime == 'null') {
@@ -55,12 +64,14 @@ function teste() {
 
       logo.setAttribute('src', showthumbs[i]);
       logo.setAttribute('alt', showthumbs[i]);
+      title.innerHTML = showtitles[i];
 
       i = showtimes.length;
 
     } else {
 
       logo.setAttribute('src', 'interlude.jpg');
+      title.innerHTML = 'Interlude';
 
       i++
     }
