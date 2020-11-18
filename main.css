@@ -31,6 +31,20 @@
   overflow-y: scroll;
   overflow-x: hidden;
 }
+
+#staytuned {
+  position: absolute;
+  width: 50vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 5;
+
+}
+
+.more_coming {
+  text-align: justify;
+}
+
 #right {
   float: left;
   width: 50vw;
@@ -76,6 +90,7 @@ p {
   grid-column-start: 1;
   grid-column-end: 1;
   animation: 2s rotating infinite;
+  z-index: 20;
 }
 @keyframes rotating {
   from {
