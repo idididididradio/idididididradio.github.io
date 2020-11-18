@@ -216,7 +216,7 @@ p {
   background-color: blue;
 }
 .audiocontainer {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 1150px) {
