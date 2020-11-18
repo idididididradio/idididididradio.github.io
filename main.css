@@ -387,7 +387,7 @@ p {
 }
 
 .interlude {
-  font-size: 12pt;
+  font-size: 14pt;
   display: flex;
   text-align: center;
   width: 80%;
@@ -395,7 +395,6 @@ p {
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  animation-name: none;
 }
 
 
