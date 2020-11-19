@@ -71,7 +71,7 @@ function teste() {
     } else {
 
       logo.setAttribute('src', 'interlude.jpg');
-      title.innerHTML = 'Interlude';
+      title.innerHTML = '...';
 
       i++
     }
