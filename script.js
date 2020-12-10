@@ -1,35 +1,35 @@
 var showthumbs = [ 
-  "thepower.jpg",
-  "dadplaylist.jpg",
   "learning.jpg",
+  "#",
   "astheworldturns.jpg",
-  "openmicanddjing.jpg"
+  "#",
+  "endless.jpg"
 ];
 
 var showtitles = [ 
-  "THE POWER OF ESCAPE",
-  "DAD PLAYLIST EPHEMERA",
   "LEARNING THINGS IN REAL TIME",
+  "OUR PROJECTS, AN INSIGHT",
   "AS THE WORLD TURNS - CALL +44 7720 980 999",
-  "OPEN MIC AND DJING - REQUEST IN THE CHAT!" 
+  "STRANGE TIMES, STRANGE DREAMS",
+  "ENDLESS VOYAGE (SRS)"
 ];
 
 var showtimes = [{
-  start: 'November 18, 2020 12:00:00',
-  end: 'November 18, 2020 13:00:00'
+  start: 'December 11, 2020 10:00:00',
+  end: 'December 11, 2020 11:00:00'
 }, {
-  start: 'November 18, 2020 13:15:00',
-  end: 'November 18, 2020 14:15:00'
+  start: 'December 11, 2020 11:15:00',
+  end: 'December 11, 2020 12:00:00'
 }, {
-  start: 'November 18, 2020 14:30:00',
-  end: 'November 18, 2020 15:30:00'
+  start: 'December 11, 2020 12:15:00',
+  end: 'December 11, 2020 13:15:00'
 }, {
-  start: 'November 18, 2020 15:45:00',
-  end: 'November 18, 2020 17:03:00'
+  start: 'December 11, 2020 13:30:00',
+  end: 'December 11, 2020 14:30:00'
 }, {
-  start: 'November 18, 2020 17:04:00',
-  end: 'November 19, 2020 00:00:00'
-}, ]
+  start: 'December 11, 2020 14:45:00',
+  end: 'December 11, 2020 15:45:00'
+},]
 
 
 teste();
@@ -52,13 +52,7 @@ function teste() {
     var logo = document.getElementById('show_logo_right');
     var title = document.getElementById('show_playing');
 
-    /*
-        if (endshowtime == 'null') {
-          endshowtime = 'November 19, 2021 00:00:00'
-
-          logo.setAttribute('src', 'thatsallfolks.jpg');
-          logo.setAttribute('alt', 'thatsallfolks.jpg');
-        }*/
+ 
 
     if (now > showtime && now < endshowtime) {
 
