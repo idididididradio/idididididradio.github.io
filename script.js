@@ -1,8 +1,8 @@
 var showthumbs = [ 
   "learning.jpg",
-  "#",
+  "ourprojects.jpg",
   "astheworldturns.jpg",
-  "#",
+  "strangetimes.jpg",
   "endless.jpg"
 ];
 
