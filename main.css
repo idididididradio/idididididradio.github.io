@@ -63,6 +63,10 @@ a {
   color: white;
 }
 
+.logo-container {
+  width: 200px;
+}
+
 a:visited {
   color: white;
 }
