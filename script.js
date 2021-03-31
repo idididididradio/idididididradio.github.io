@@ -7,29 +7,33 @@ var showthumbs = [
 ];
 
 var showtitles = [ 
-  "LEARNING THINGS IN REAL TIME",
-  "OUR PROJECTS, AN INSIGHT",
   "AS THE WORLD TURNS - CALL +44 7720 980 999",
-  "STRANGE TIMES, STRANGE DREAMS",
-  "ENDLESS VOYAGE (SRS)"
+  "CONNECTING NAMIBIA AND GERMANY - INTERVIEW WITH FROWIN BECKER",
+  "FRIENDS LEARNING THINGS!",
+  "MASTERS OPEN CALL",
+  "SEX AND CARE - INTERVIEW WITH MAGGIE SAUNDERS",
+  "OPEN END - French pr$ss, Nick & Polarwolf"
 ];
 
 var showtimes = [{
-  start: 'December 11, 2020 10:00:00',
-  end: 'December 11, 2020 11:00:00'
+  start: 'April 1, 2021 11:00:00',
+  end: 'April 1, 2021 12:00:00'
 }, {
-  start: 'December 11, 2020 11:15:00',
-  end: 'December 11, 2020 12:00:00'
+  start: 'April 1, 2021 12:15:00',
+  end: 'April 1, 2021 13:15:00'
 }, {
-  start: 'December 11, 2020 12:15:00',
-  end: 'December 11, 2020 13:15:00'
+  start: 'April 1, 2021 13:30:00',
+  end: 'April 1, 2021 14:30:00'
 }, {
-  start: 'December 11, 2020 13:30:00',
-  end: 'December 11, 2020 14:30:00'
+  start: 'April 1, 2021 14:30:00',
+  end: 'April 1, 2021 15:30:00'
 }, {
-  start: 'December 11, 2020 14:45:00',
-  end: 'December 11, 2020 15:45:00'
-},]
+  start: 'April 1, 2021 15:45:00',
+  end: 'April 1, 2021 16:45:00'
+}, {
+  start: 'April 1, 2021 16:45:00',
+  end: 'April 1, 2021 20:00:00'
+}, ]
 
 
 teste();
