@@ -1,9 +1,10 @@
 var showthumbs = [ 
-  "learning.jpg",
-  "ourprojects.jpg",
   "astheworldturns.jpg",
-  "strangetimes.jpg",
-  "endless.jpg"
+  "connecting.jpg",
+  "learning.jpg",
+  "opencall.jpg",
+  "sexwork.jpg",
+  "openend.jpg"
 ];
 
 var showtitles = [ 
