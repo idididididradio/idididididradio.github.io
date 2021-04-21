@@ -63,7 +63,6 @@
   height: 50vh;
   margin-right: 20px;
   margin-top:20px;
-  background-color: tomato;
 }
 
 h1 {
@@ -333,9 +332,13 @@ p {
   overflow-y: visible;
   overflow-x: visible;
   background-color: #000AFF;
-  background-color: pink;
 }
 
+#twitch-embed {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
 
 h1 {
   font-family: alga, serif;
