@@ -7,7 +7,7 @@
     font-style: normal;
     font-size: 14pt;
     color: #FFFFFF;
-    background-color: #fff;
+    background-color:#000AFF;
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -23,9 +23,13 @@
 }
 
 #left {
+  position: absolute;
+  left: 0%;
+  display: flex;
+  flex-direction: column;
   float: left;
   border-right: 1px solid #000AFF;
-  width: 50vw;
+  width: 50%;
   height: 100vh;
   background-color: #000AFF;
   overflow-y: scroll;
@@ -46,11 +50,20 @@
 }
 
 #right {
-  float: left;
+  position: absolute;
+  left: 50%;
   width: 50vw;
   height: 100vh;
   overflow-y: scroll;
   overflow-x: hidden;
+  background-color:;
+}
+
+#twitch-embed {
+  height: 50vh;
+  margin-right: 20px;
+  margin-top:20px;
+  background-color: tomato;
 }
 
 h1 {
@@ -63,8 +76,15 @@ a {
   color: white;
 }
 
+#logo_poster_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 .logo-container {
-  width: 200px;
+  width: 25%;
+  height: 20%;
 }
 
 a:visited {
@@ -78,24 +98,18 @@ p {
   font-size: 14pt; 
 }
 
-#header {
-  display: flex;
-  flex-direction: row;
-  height: 200px;
-  width: calc(100% - 40px);
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-}
 
 .radio_logo {
-  height: 100%;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100%;
   grid-column-start: 1;
   grid-column-end: 1;
   animation: 2s rotating infinite;
   z-index: 20;
 }
+
 @keyframes rotating {
   from {
     -ms-transform: rotate(0deg);
@@ -123,26 +137,27 @@ p {
 
 .show{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   border: 1px solid #fff;
   border-right-style: none;
   border-left-style: none;
+  border-top-style: none;
   width: calc(100% - 40px);
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
+  margin-left: 20px;
+
 }
 
 .show_logo{  
   display: flex;
-  height: 150px;
+  height: auto;
+  width: 65%;
+  margin-left: auto;
+  margin-right: 20px;
   margin-top: 20px;
-  margin-bottom: auto;
 }
 
 .description {
-  margin-left: 30px;
   margin-top: 20px;
 }
 
@@ -169,12 +184,11 @@ p {
 
 
 .time {
-  font-size: 18pt;
+  font-size: 24pt;
   font-family: alga, serif;
   font-weight: 300;
   font-style: normal;
   margin-top: 20px;
-  margin-left: 30px;
 }
 
 .interlude {
@@ -211,9 +225,8 @@ p {
 #headerright {
   display: flex;
   flex-direction: column;
-  height: 45%;
   width: 100%;
-  padding: 0 20px 20px 20px;
+  /* padding: 0 20px 20px 20px; */
   margin-left: auto;
   margin-right: auto;
   color: blue;
@@ -247,6 +260,8 @@ p {
   width: 25vh;
   margin-top: 20px;
 }
+
+
 .chat {
   bottom: 0;
   height: 50%;
@@ -296,21 +311,31 @@ p {
 }
 
 #left {
-  float: left;
+  display: flex;
+  position: relative;
   border: none;
-  width: 100vw;
+  width: 100%;
   height: auto;
   background-color: #000AFF;
   overflow-y: visible;
   overflow-x: visible;
 }
+
 #right {
-  float: left;
-  width: 100vw;
-  height: auto;
+  left:0%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
   overflow-y: visible;
   overflow-x: visible;
+  background-color: #000AFF;
+  background-color: pink;
 }
+
 
 h1 {
   font-family: alga, serif;
@@ -327,22 +352,6 @@ p {
   font-size: 14pt; 
 }
 
-#header {
-  display: flex;
-  flex-direction: row;
-  height: 100px;
-  width: calc(100% - 40px);
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-}
-
-.radio_logo {
-  height: 100%;
-  grid-column-start: 1;
-  grid-column-end: 1;
-}
 
 .header_title {
   grid-column-start: 3;
@@ -350,61 +359,6 @@ p {
   margin-top: 10px;
   margin-left: 40px;
   width: 60%;
-}
-
-.show{
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #fff;
-  border-right-style: none;
-  border-left-style: none;
-  width: calc(100% - 40px);
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-}
-
-.show_logo{  
-  display: flex;
-  width: 150px;
-  margin-left: 30px;
-}
-
-.description {
-  margin-left: 30px;
-  margin-top: 20px;
-}
-
-.title {
-  font-size: 18pt;
-  font-family: alga, serif;
-  font-weight: 300;
-  font-style: normal;
-}
-.theme {
-  width: 75%;
-  font-size: 14pt;
-  font-family: alga, serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.creators {
-  font-family: alga, serif;
-  font-weight: 300;
-  font-size: 12pt;
-  font-style: light;
-}
-
-
-.time {
-  font-size: 18pt;
-  font-family: alga, serif;
-  font-weight: 300;
-  font-style: normal;
-  margin-top: 20px;
-  margin-left: 30px;
 }
 
 .interlude {
@@ -418,38 +372,13 @@ p {
   margin-right: auto;
 }
 
-
-
-#headerright {
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  width: 100%;
-  padding: 10px;
+#show {
   margin-left: auto;
   margin-right: auto;
-  color: blue;
 }
 
-#show_logo_right {
-  width: 240px;
+.show_logo {
+  margin-right: 5px;
 }
-.chat {
-  height: 300px;
-  width: 100%;
-  margin-bottom: 20px;
-}
-#chatroom {
-  margin-left: 10px;
-  height: 100%;
-  width: 94%;
-  background-color: blue;
-}
-.audiocontainer {
-  margin-top: 20px;
-}
-
-
-
 
 }
