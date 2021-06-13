@@ -28,24 +28,11 @@
   display: flex;
   flex-direction: column;
   float: left;
-  width: 100%;
+  width: 50%;
   height: 100%;
   background-color: #000AFF;
   overflow-y: scroll;
   overflow-x: hidden;
-}
-
-#staytuned {
-  position: absolute;
-  width: 50vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.9);
-  z-index: 5;
-
-}
-
-.more_coming {
-  text-align: justify;
 }
 
 h1 {
@@ -59,7 +46,7 @@ a {
 }
 
 .logo-container {
-  width: 15%;
+  width: 30%;
   height: 40%;
 }
 
